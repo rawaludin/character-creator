@@ -10,6 +10,13 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  overflow: scroll;
+  isolation: isolate;
+}
+
+.controlPane {
+  text-wrap: nowrap;
+  overflow: auto;
 }
 
 .title {
